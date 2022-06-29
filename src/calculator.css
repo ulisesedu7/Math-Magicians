@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.calContainer {
+  display: grid;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.calContainer button {
+  padding: 1rem 2rem;
+  width: 25%;
+  border-color: rgb(230, 227, 227);
+}
+
+.calResult {
+  text-align: right;
+  color: white;
+  background-color: grey;
+  padding: 0.8rem 1.5rem;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.bigger {
+  flex-grow: 2;
+}
+
+.lastBtn {
+  background-color: orange;
+}
