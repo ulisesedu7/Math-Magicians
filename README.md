@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 # Math-Magicians
 
 This repository contains an web app for a calculator to help you with simple mathematical operations.
