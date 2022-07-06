@@ -2,9 +2,9 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/navBar';
-import HomePage from './pages/home';
-import CalculatePage from './pages/calculate';
-import QuotePage from './pages/quote';
+import HomePage from './pages/homePage';
+import CalculatePage from './pages/calculatePage';
+import QuotePage from './pages/quotePage';
 
 class App extends React.PureComponent {
   render() {
