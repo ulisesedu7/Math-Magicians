@@ -1,11 +1,22 @@
 import React from 'react';
+import { Routes, Route } from "react-router-dom";
 import './App.css';
-import Calculator from './components/calculator';
+import NavBar from './components/navBar';
+import HomePage from './pages/home';
+import CalculatePage from './pages/calculate';
+import QuotePage from './pages/quote';
 
 class App extends React.PureComponent {
   render() {
     return (
-      <Calculator />
+      <>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="/calculator" element={<CalculatePage />}/>
+          <Route path="/quote" element={<QuotePage />}/>
+        </Routes>
+      </>
     );
   }
 }
