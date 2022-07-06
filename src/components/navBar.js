@@ -9,19 +9,19 @@ class NavBar extends React.PureComponent {
           <h1>Math Magicians</h1>
           <ul className="nav-links">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className="nav-link-a">Home</Link>
             </li>
 
             <hr />
 
             <li>
-              <Link to="/calculator">Calculator</Link>
+              <Link to="/calculator" className="nav-link-a">Calculator</Link>
             </li>
 
             <hr />
 
             <li>
-              <Link to="/quote">Quote</Link>
+              <Link to="/quote" className="nav-link-a">Quote</Link>
             </li>
           </ul>
         </nav>

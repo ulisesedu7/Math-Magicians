@@ -8,12 +8,14 @@ Navbar Styles
 */
 .header-container {
   padding: 1.3rem;
+  background-color: rgb(82, 82, 82);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  color: rgb(211, 211, 211);
 }
 
 .nav-links {
@@ -21,6 +23,22 @@ Navbar Styles
   flex-wrap: wrap;
   list-style: none;
   column-gap: 1.1rem;
+}
+
+.nav-link-a {
+  color: white;
+}
+.nav-link-a:link,
+.nav-link-a:visited {
+  color: white;
+}
+
+.nav-link-a:hover {
+  color: rgb(221, 221, 221);
+}
+
+.nav-link-a:active {
+  color: rgb(175, 173, 173);
 }
 
 .nav-links hr {
