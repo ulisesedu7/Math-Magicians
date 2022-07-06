@@ -2,3 +2,60 @@
   padding: 0;
   margin: 0;
 }
+
+/*
+Navbar Styles
+*/
+.header-container {
+  padding: 1.3rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  column-gap: 1.1rem;
+}
+
+.nav-links hr {
+  border: 1px solid black;
+  height: 80%;
+}
+
+/*
+Home Styles
+*/
+.home-container {
+  margin-top: 0.7rem;
+}
+
+.home-container > * {
+  padding: 1.3rem;
+}
+
+.home-container p {
+  margin-top: 1.1rem;
+}
+
+/*
+Calculator Styles
+*/
+.calculate-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+/*
+Quotes Styles
+*/
+.quotes blockquote {
+  font-size: 1.8rem;
+  margin: 3.2rem;
+}
