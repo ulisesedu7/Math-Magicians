@@ -1,12 +1,22 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/calculator';
+import NavBar from './components/navBar';
+import HomePage from './pages/homePage';
+import CalculatePage from './pages/calculatePage';
+import QuotePage from './pages/quotePage';
 
-class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
-      <Calculator />
+      <>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/calculator" element={<CalculatePage />} />
+          <Route path="/quote" element={<QuotePage />} />
+        </Routes>
+      </>
     );
   }
 }
