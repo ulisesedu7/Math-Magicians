@@ -12,7 +12,7 @@ This repository contains an web app for a calculator to help you with simple mat
 - Git & Github
 
 ## Live Demo
-- Check the live demo of my page [here](https://mysterious-bayou-66250.herokuapp.com/)
+- Check the live demo of my page [here](https://ulises-math-magicians.netlify.app/)
 
 ## Getting Started
 
